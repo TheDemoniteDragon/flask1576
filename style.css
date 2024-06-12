@@ -24,3 +24,21 @@ p {
 div {
     color: #0000ff;
 }
+
+@keyframes color-change {
+    0% {
+        color: blue;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+h1 {
+    animation: color-change 2s infinite;
+}
